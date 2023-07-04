@@ -1,0 +1,122 @@
+.section3 {
+  box-sizing: border-box;
+}
+
+/* 이미지 있는 부분 (이미지끼리의 간격조정) */
+
+.wrapper3 {
+  width: 100%;
+  height: 570px;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.container3 {
+  margin: 20px;
+}
+
+.box3_background1:hover {
+  transform: scale(1.01);
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+.box3_background2:hover {
+  transform: scale(1.01);
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+.box3_background3:hover {
+  transform: scale(1.01);
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+.box3_background4:hover {
+  transform: scale(1.01);
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+/*  background 이미지 넣은 부분 */
+.box3_background1 {
+  background-image: url(../images/section3/section3_1.jpg);
+  width: 480px;
+  height: 500px;
+  border-radius: 20px;
+}
+
+.box3_background2 {
+  background-image: url(../images/section3/section3_2.jpg);
+  width: 480px;
+  height: 500px;
+  border-radius: 20px;
+}
+
+.box3_background3 {
+  background-image: url(../images/section3/section3_3.jpg);
+  width: 480px;
+  height: 240px;
+  border-radius: 20px;
+}
+
+.box3_background4 {
+  background-image: url(../images/section3/section3_4.jpg);
+  width: 480px;
+  height: 240px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+/* 사진 안에 들어있는 글자들에게 부여해주는 속성 */
+
+.box3_text {
+  padding: 30px;
+}
+.box3_specialist {
+  font-size: 12px;
+  font-weight: 600;
+  color: #626273;
+  width: 204px;
+  height: 24px;
+  /* padding: 0 30px; */
+}
+
+.box3_description_1 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.box3_new {
+  font-size: 12px;
+  font-weight: 600;
+  color: #bf4800;
+}
+
+.box3_description_2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: white;
+}
+
+.box3_description_2_1 {
+  font-size: 17px;
+  font-weight: 400;
+  color: white;
+  padding-top: 10px;
+}
+
+.box3_description3 {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 30px;
+}
+
+.box3_description4 {
+  width: 250px;
+  height: 85px;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 30px;
+}
+
+/* 글자 위치 조정해야함 */

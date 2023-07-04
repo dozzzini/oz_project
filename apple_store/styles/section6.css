@@ -1,0 +1,114 @@
+.section6 {
+  box-sizing: border-box;
+  width: 100%;
+  height: 630px;
+  letter-spacing: -1.5px;
+}
+
+/*  background 이미지 넣은 부분 */
+
+.box6_background1 {
+  background-image: url(../images/section6/section6_1.jpg);
+  width: 400px;
+  height: 500px;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.box6_title {
+  font-size: 28px;
+  font-weight: 600;
+  width: 340px;
+  height: 64px;
+  padding: 50px 30px 0 30px;
+}
+.box6_description {
+  font-size: 17px;
+  font-weight: 400;
+  width: 340px;
+  height: 52px;
+  padding: 30px;
+}
+
+/* 이미지 있는 부분 (이미지끼리의 간격조정) */
+
+.wrapper6 {
+  width: 100%;
+  height: 470px;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.box6 {
+  margin: 20px;
+  padding: 40px;
+  background-color: white;
+  width: 230px;
+  height: 420px;
+  border-radius: 20px;
+}
+
+.container6:hover {
+  transform: scale(1.01);
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+.box6 {
+  margin: 20px;
+  padding: 40px;
+  background-color: white;
+  width: 230px;
+  height: 420px;
+  border-radius: 20px;
+}
+
+.box6:hover {
+  transform: scale(1.01);
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+.box6_img {
+  padding-top: 41px;
+  width: 230px;
+  height: 230px;
+}
+
+.box6_color_choice {
+  width: 230px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 19px 0 14px 0;
+}
+
+.color {
+  width: 12px;
+  height: 12px;
+  padding-left: 8px;
+}
+
+.box6_new {
+  color: #bf4800;
+  font-size: 12px;
+  width: 252px;
+  height: 16px;
+  font-weight: 400;
+}
+
+.box6_item_name {
+  font-size: 17px;
+  font-weight: 600;
+  width: 252px;
+  height: 42px;
+}
+
+.box6_price {
+  font-size: 14px;
+  font-weight: 400;
+  width: 252px;
+  height: 18px;
+  margin-top: 27px;
+}
