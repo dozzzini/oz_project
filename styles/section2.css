@@ -1,0 +1,76 @@
+.section2{
+    width: 100%;
+    height: 721.6px;
+    display: inline-flex;
+
+}
+
+
+.section2_1{
+    padding-left: 250px;
+    padding-top: 75px; 
+    padding-bottom: 50px; 
+}
+
+.img_chat2{
+    width: 530px;
+    height: 680px;
+}
+
+.section2_2{
+    height: 400px;
+    padding-top: 280px;
+    padding-left: 100px;
+}
+
+.wuri{
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -0.4px;
+    line-height: 1.3;
+    margin-bottom: 30px;
+    color: #212529;
+    
+}
+.wuri_description{
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: -0.3px;
+
+}
+
+.button_box{
+    width: 400px;
+    padding-top: 30px;
+
+}
+
+.inki_button{
+    border-radius: 5px;
+    background-color: #F1F3F5;
+    border-color: #F1F3F5;
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.inki_button:hover{
+    background-color: #2a2f3428;
+}
+
+.mid_button{
+    border-radius: 5px;
+    background-color: #F1F3F5;
+    border-color: #F1F3F5;
+    width: 210px;
+    height: 50px;
+    font-size: 18px;
+    padding: 10px;
+    margin-left: 15px;
+
+}
+
+.mid_button:hover{
+    background-color: #2a2f3428;
+}
