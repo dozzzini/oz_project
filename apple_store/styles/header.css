@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  background-color: #f5f5f7;
+}
+
+.sangdanbar {
+  width: 100%;
+  height: 44px;
+  /* border: 1px solid red; */
+  display: flex;
+}
+
+.sangdanbar ul:hover {
+  cursor: pointer;
+}
+
+.header_img {
+  width: 20px;
+  height: 20px;
+}
+
+.sangdanbar:hover + .if_hover {
+  display: block;
+}
+
+.apple_items {
+  margin-top: 10px;
+  margin-left: 0;
+  /* border: 1px solid blue; */
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  height: 30px;
+}
+
+.item_list {
+  padding-top: 5px;
+  padding-left: 30px;
+  list-style: none;
+  width: auto;
+  height: 30px;
+  font-size: 12px;
+}
+
+.item_list_odd {
+  padding-top: 5px;
+  padding-left: 30px;
+  list-style: none;
+  width: auto;
+  font-size: 12px;
+}
+
+.find_logo {
+  padding-top: 5px;
+  padding-left: 30px;
+  list-style: none;
+  width: auto;
+  list-style: none;
+}
+
+.find {
+  width: 20px;
+  height: 18px;
+}
+
+.cart_logo {
+  padding-top: 5px;
+  padding-left: 30px;
+  list-style: none;
+  width: auto;
+  list-style: none;
+}
+
+.cart {
+  width: 20px;
+  height: 18px;
+}

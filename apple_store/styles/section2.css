@@ -1,0 +1,185 @@
+.section2 {
+  box-sizing: border-box;
+}
+
+/* section 2부터 section8까지 공통적으로 해당되는 글씨 부분 */
+
+.text_top {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 0 22px;
+  padding-bottom: 14px;
+}
+
+.text_top_odd {
+  color: #6e6e73;
+}
+
+/* 이미지 있는 부분 (이미지끼리의 간격조정) */
+
+#wrapper2 {
+  width: 100vw;
+  height: 570px;
+  position: relative;
+  display: flex;
+  /* box-sizing: border-box; */
+  /* background-color: rebeccapurple; */
+}
+
+.container2 {
+  position: absolute;
+  /* margin: 20px; */
+  display: flex;
+  width: 100vw;
+  transition: left 0.5s ease-in-out;
+  overflow: visible;
+  /* background-color: tomato; */
+}
+
+.container2 div {
+  margin: 20px;
+}
+.container2 div:hover {
+  transform: scale(1.01);
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+/*  background 이미지 + 사진 모양 및 크기 */
+
+.box2_background1 {
+  background-image: url(../images/section2/section2_1.jpg);
+  width: 400px;
+  height: 500px;
+  border-radius: 20px;
+}
+
+.box2_background2 {
+  background-image: url(../images/section2/section2_2.jpg);
+  width: 400px;
+  height: 500px;
+  border-radius: 20px;
+}
+
+.box2_background3 {
+  background-image: url(../images/section2/section2_3.jpg);
+  width: 400px;
+  height: 500px;
+  border-radius: 20px;
+}
+.box2_background4 {
+  background-image: url(../images/section2/section2_4.jpg);
+  width: 400px;
+  height: 500px;
+  border-radius: 20px;
+}
+.box2_background5 {
+  background-image: url(../images/section2/section2_5.jpg);
+  width: 400px;
+  height: 500px;
+  border-radius: 20px;
+}
+.box2_background6 {
+  background-image: url(../images/section2/section2_6.jpg);
+  width: 400px;
+  height: 500px;
+  border-radius: 20px;
+}
+.box2_background7 {
+  background-image: url(../images/section2/section2_7.jpg);
+  width: 400px;
+  height: 500px;
+  border-radius: 20px;
+}
+.box2_background8 {
+  background-image: url(../images/section2/section2_8.jpg);
+  width: 400px;
+  height: 500px;
+  border-radius: 20px;
+}
+.box2_background9 {
+  background-image: url(../images/section2/section2_9.jpg);
+  width: 400px;
+  height: 500px;
+  border-radius: 20px;
+}
+.box2_background10 {
+  background-image: url(../images/section2/section2_10.jpg);
+  width: 400px;
+  height: 500px;
+  border-radius: 20px;
+}
+.box2_background11 {
+  background-image: url(../images/section2/section2_11.jpg);
+  width: 400px;
+  height: 500px;
+  border-radius: 20px;
+}
+/* 사진 안에 들어있는 글자들에게 부여해주는 속성 */
+
+.in_text {
+  width: 340px;
+  height: 113px;
+  padding: 10px 30px;
+}
+
+.box2_item_name_white {
+  font-size: 12px;
+  color: white;
+  padding-bottom: 8px;
+}
+
+.box2_feature_white {
+  font-size: 28px;
+  font-weight: 600;
+  color: white;
+}
+
+.box2_price_white {
+  font-size: 17px;
+  color: white;
+  /* padding-top: 10px; */
+}
+
+.box2_item_name {
+  font-size: 12px;
+  padding-bottom: 8px;
+}
+
+.box2_feature {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.box2_price {
+  font-size: 17px;
+  /* padding-top: 10px; */
+}
+
+/* 방향 버튼에 대한 css */
+
+.controller span {
+  position: absolute;
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 50%;
+  padding: 10px 20px;
+  top: 40%;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+/* 이전, 다음 화살표에 마우스 커서가 올라가 있을때 */
+.controller span:hover {
+  background-color: rgba(59, 53, 53, 0.604);
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}

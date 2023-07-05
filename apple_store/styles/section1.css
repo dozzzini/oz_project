@@ -1,0 +1,137 @@
+.section1 {
+  box-sizing: border-box;
+}
+
+.section1_row1 {
+  width: 100%;
+  height: 37px;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 15px;
+  background-color: white;
+}
+
+.row1_color_blue {
+  color: #06c;
+}
+
+.row1_color_blue:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* 두 번째 row (큰 글씨 있는 부분) */
+
+.section1_row2 {
+  width: 100%;
+  height: 248px;
+  background-color: #f5f5f7;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+}
+
+.row2_text {
+  /* border: 1px solid lawngreen; */
+  color: black;
+  width: 640px;
+  font-size: 48px;
+  font-weight: 600;
+  padding-top: 70px;
+  padding-left: 90px;
+  letter-spacing: -2px;
+}
+
+.textcolor_gray {
+  color: #6e6e73;
+}
+
+/* 두번째 row (사람 얼굴, 메세지 있고 질문 있는 부분) */
+
+.row2_link {
+  /* border: 1px solid salmon; */
+  width: 184.3px;
+  padding-left: 50px;
+  padding-top: 90px;
+}
+
+.link_1 {
+  font-size: 14px;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.link1_img {
+  width: 35px;
+  height: 35px;
+}
+
+.link_question {
+  width: 100%;
+  height: 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.link_answer {
+  width: 100%;
+  height: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #0066cc;
+}
+
+.link_answer:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.link_2 {
+  font-size: 14px;
+  display: flex;
+}
+
+.link2_img {
+  width: 35px;
+  height: 35px;
+}
+
+/* 세번째 row (상품 사진이랑 상품명 있는 부분) */
+
+.section1_row3 {
+  display: flex;
+  width: 100%;
+  height: 148px;
+  padding: 10px 0 40px;
+  background-color: #f5f5f7;
+}
+
+.section1_box {
+  width: 120px;
+  height: 114px;
+  padding: 18px 8px 16px 8px;
+}
+
+.box1_img {
+  width: 120px;
+  height: 78px;
+  padding: 0 0 16px;
+}
+
+.box1_img:hover {
+  cursor: pointer;
+}
+
+.section1_item_name {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  color: #1d1d1f;
+  width: 120px;
+  height: 20px;
+}
+
+.section1_item_name:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
